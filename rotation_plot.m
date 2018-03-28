@@ -1,7 +1,7 @@
 clear, clc, clearvars
 close all
 
-[x,y,w] = rotation(0.01,0.002,pi/6,0.05,0.2794,0.3048,0.2);
+[x,y,w] = rotation(0.01,0.002,pi/8,0.05,0.2794,0.3048,0.2);
 %ball mass = 0.01 kg
 %rod mass = 0.002 kg
 %angle = 30 deg = pi/6
@@ -20,7 +20,7 @@ close all
 % hold on
 % title('Angle vs. Angular Velocity of Rotation')
 
-figure(2);
+figure(3);
 plot(x, y, 'r')
 xlabel('X')
 ylabel('Y')
