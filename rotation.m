@@ -1,4 +1,5 @@
 function [x,y] = rotation(mb,mr,rb,l,Y,d,v1)
+global GlobalXYT;
 %mb: ball mass
 %mr: rod mass
 %rb: ball radius
