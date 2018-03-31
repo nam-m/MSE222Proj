@@ -28,3 +28,16 @@ ylabel('Y')
 % ylim([-100, 0])
 hold on
 title('Position of Ball in Rotation')
+
+clear, clc, clearvars
+close all
+
+% NEW ROTATION PLOT!!!
+[x,y] = rotation(0.05,0.005,0.025,0.06,0.3,0.25,3);
+figure;
+plot(x, y, 'b')
+xlabel('X')
+ylabel('Y')
+% xlim([0, 100])
+% ylim([-100, 0])
+hold on
